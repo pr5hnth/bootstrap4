@@ -12,7 +12,7 @@
 }
 
 .footer{
-    background-color: #968707;
+    background-color: hsl(214, 100%, 83%);
     margin: 0px;
     padding: 20px 0px 20px 0px;
 }
@@ -20,7 +20,7 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #920121;
+    background: #61a0ff;
     color: aliceblue;
 
 }
@@ -30,4 +30,12 @@
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark{
+    background-color: blue;
 }
