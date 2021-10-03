@@ -41,9 +41,16 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col col-sm align-self-center" style="text-align: center;">
                     <img src="img/logo.png" class="img-fluid">
+
+                    <a class="btn btn-warning btn-lg offset-md-2" href="#reserve" role="button">Reserve Table</a>
                 </div>
+                </div>
+                <div class>
+                    
+                </div>
+
             </div>
         </div>
     </header>
@@ -58,23 +65,29 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
                 <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-primary">$4.99</span> </h2>
+                <div class="d-none d-sm-block">
                 <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-                     </div>    
+            </div>         
+            </div>    
                 </div>
             </div>
         </div>
 
 
-        <div class="row row-content align-items-center" >
-            <div class="col-12 col-sm-4 col-md-3" >
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                  <div class="media-body">
+                    <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                    <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                  </div>
+                  <img class="d-flex mr-4 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
             </div>
         </div>
-
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
@@ -85,12 +98,74 @@
                     <div class="media-body">
                 <h2 class="mt-0">Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
+                <div class="d-none d-sm-block">
                 <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                    </div>    
+            </div>        
+            </div>    
                 </div>
             </div>
         </div>
-      </div>
+        
+        <div id="reserve" class="row row-content align-items-center" >
+            <div class="col-12 offset-0 col-md-9 offset-md-2">  
+          
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                        <div class="form-group row">
+                            <label for="ng" class="col-12 col-md-2 col-form-label">Number of Guests</label>
+                            <div class="col-md-">
+                                <div class="btn-group" data-toggle="buttons">   
+                                    
+                                    <label class="btn"><input type="radio" name="noppl" value="1"> 1</label><label class="btn">
+                                        <input type="radio" name="noppl" value="2"> 2
+                                    </label>
+                                    <label class="btn">
+                                        <input type="radio" name="noppl" value="3"> 3
+                                    </label>
+                                    <label class="btn">
+                                        <input type="radio" name="noppl" value="4"> 4
+                                    </label>
+                                    <label class="btn">
+                                        <input type="radio" name="noppl" value="5"> 5
+                                    </label>
+                                    <label class="btn">
+                                        <input type="radio" name="noppl" value="6"> 6
+                                    </label>
+                                </div>
+                            </div>
+                            </div>
+                        
+
+                        <div class="form-group row">
+                            <label for="dt" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" id="dt" name="dt" placeholder="Date">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" id="dt" name="dt" placeholder="Time">
+                            </div>
+        
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
+                        </div>
+                    </form>
+
+     
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+ </div>
 
     <footer class="footer">
         <div class="container">
@@ -126,10 +201,10 @@
                     </div>
                 </div>
            </div>
-           <div class="row">             
-                <div class= "justify-content-center">  
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
-                </div>
+           <div class="row justify-content-center">             
+            <div class="col-auto">
+                <p>© Copyright 2018 Ristorante Con Fusion</p>
+            </div>
            </div>
         </div>
     </footer>
